@@ -9,7 +9,7 @@
 
 </head>
 <body>
-<body bgcolor="#9370DB"> 
+<body bgcolor="#DDA0DD"> 
 
 <ul id="menu">
 <li>
@@ -38,7 +38,8 @@
         <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
         <div id='txtAssunto'></div>
         <br>
-        <button>Enviar</button>
+        <br>
+        <button onclick="enviar()">Enviar</button>
     </form>
 </div>
 
@@ -51,13 +52,11 @@
     <p>Av. Paulo Ayres, 470</p>
     <p>Taboão da Serra - São Paulo</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.5595494872296!2d-46.78804498538245!3d-23.62012416964922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54600d973bab%3A0x1b49f68b5d1e487b!2sAv.%20Paulo%20Ayres%2C%20470%20-%20Parque%20Pinheiros%2C%20Tabo%C3%A3o%20da%20Serra%20-%20SP%2C%2006767-220!5e0!3m2!1spt-BR!2sbr!4v1621380284124!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.5595494872296!2d-46.78804498538245!3d-23.62012416964922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54600d973bab%3A0x1b49f68b5d1e487b!2sAv.%20Paulo%20Ayres%2C%20470%20-%20Parque%20Pinheiros%2C%20Tabo%C3%A3o%20da%20Serra%20-%20SP%2C%2006767-220!5e0!3m2!1spt-BR!2sbr!4v1621380284124!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
 
 </div>
 <hr>
 <footer> 
-
-
 <div class="container">
     <a href="https://www.facebook.com/" target="_blank">
         <img class="tm-social p-30" src="assets/img/facebook.png" 
